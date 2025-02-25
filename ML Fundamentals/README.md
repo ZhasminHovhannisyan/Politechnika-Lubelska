@@ -1,4 +1,4 @@
-# Machine Learning Directory
+# Machine Learning Fundamentals
 
 **ML Fundamentals** is a collection of Jupyter Notebooks (`.ipynb`),
 which explores wide range of ML topics, from foundational Python programming 
