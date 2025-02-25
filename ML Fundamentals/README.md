@@ -11,7 +11,7 @@ The [Datasets](Datasets/) directory contains all files used in the codes.
 
 ## Overview
 
-- **Purpose**: Provide a comprehensive learning resource for ML enthusiasts, covering programming basics, data analysis, supervised/unsupervised learning, and deep learning.
+- **Purpose**: Provide a comprehensive learning resource, covering programming basics, data analysis, supervised/unsupervised learning, and deep learning.
 - **Format**: Twelve `.ipynb` files, each focusing on a distinct topic.
 - **Tools**: Python and its libraries.
 
