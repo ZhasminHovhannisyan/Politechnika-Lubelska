@@ -21,7 +21,7 @@ The [Datasets](Datasets/) directory contains all files used in the codes.
 
 Below are the notebooks in this repository, with their contents and key focus areas:
 
-### 1. **[Python basics](1-python-basics.ipynb)**
+### 1. **[Python basics](01-python-basics.ipynb)**
 - **Purpose**: Introduce fundamental Python programming concepts.
 - **Contents**:
   - Object types, basic operations, control structures.
@@ -29,54 +29,54 @@ Below are the notebooks in this repository, with their contents and key focus ar
   - Scope of variables, variable-length arguments.
   - Working with files, exception handling.
 
-### 2. **[Python libraries](2-python-libraries)**
+### 2. **[Python libraries](02-python-libraries)**
 - **Purpose**: Explore essential Python libraries for data science.
 - **Contents**:
   - NumPy for numerical operations.
   - Pandas for data manipulation and analysis.
   - Matplotlib for data visualization.
 
-### 3. **[Data Preprocessing and Analysis](3-data-processing.ipynb)**
+### 3. **[Data Preprocessing and Analysis](03-data-processing.ipynb)**
 - **Purpose**: Prepare and analyze data for ML tasks.
 - **Contents**:
   - Handling categorical data, dummy variables.
   - Rescaling data, normalization, and standardization.
   - Exploratory data analysis (EDA), univariate and multivariate analysis.
 
-### 4. **[Univariate Regression](4-univariate-regression.ipynb)**
+### 4. **[Univariate Regression](04-univariate-regression.ipynb)**
 - **Purpose**: Implement and understand simple regression models.
 - **Contents**:
   - Simple linear regression.
   - Polynomial regression.
 
-### 5. **[Multivariate Regression](4-multivariate-regression.ipynb)**
+### 5. **[Multivariate Regression](05-multivariate-regression.ipynb)**
 - **Purpose**: Build and evaluate multivariate regression models.
 - **Contents**:
   - Data preprocessing, model creation, and evaluation.
   - Handling outliers, checking homoscedasticity and normality.
   - Linearity plots, regularization techniques.
 
-### 6. **[Logistic Regression](6-logistic-regression.ipynb)**
+### 6. **[Logistic Regression](06-logistic-regression.ipynb)**
 - **Purpose**: Apply logistic regression to classification problems.
 - **Contents**:
   - Sigmoid function, ROC curve.
   - Multivariable and multi-class logistic regression.
   - Diagnostics, decision tree on Iris dataset.
 
-### 7. **[Time-Series and Advanced Models](7-time-series.ipynb)**
+### 7. **[Time-Series and Advanced Models](07-time-series.ipynb)**
 - **Purpose**: Explore time-series forecasting and advanced ML models.
 - **Contents**:
   - SVM and KNN for classification.
   - ARIMA for time-series analysis, finding optimal parameters (ACF, PACF).
   - Future predictions based on time-series data.
 
-### 8. **[Unsupervised Learning](8-unsupervised-learning.ipynb)**
+### 8. **[Unsupervised Learning](08-unsupervised-learning.ipynb)**
 - **Purpose**: Demonstrate unsupervised learning techniques.
 - **Contents**:
   - K-means clustering, hierarchical clustering.
   - Principal Component Analysis (PCA) for dimensionality reduction.
 
-### 9. **[Optimal Probability Cut-Off](9-optimal-prob-cutoff.ipynb)**
+### 9. **[Optimal Probability Cut-Off](09-optimal-prob-cutoff.ipynb)**
 - **Purpose**: Optimize classification thresholds and model evaluation.
 - **Contents**:
   - ROC curve analysis, finding optimal cut-off points.
