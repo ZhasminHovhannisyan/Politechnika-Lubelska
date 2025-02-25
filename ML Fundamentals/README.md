@@ -29,7 +29,7 @@ Below are the notebooks in this repository, with their contents and key focus ar
   - Scope of variables, variable-length arguments.
   - Working with files, exception handling.
 
-### 2. **[Python libraries](02-python-libraries)**
+### 2. **[Python libraries](02-python-libraries.ipynb)**
 - **Purpose**: Explore essential Python libraries for data science.
 - **Contents**:
   - NumPy for numerical operations.
