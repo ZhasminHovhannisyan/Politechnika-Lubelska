@@ -24,45 +24,30 @@ class Platform;
 class Platform {
   private :
   string name;
-     bool empty;
+  bool empty;
+  mutex mtx;
+
   public :
 
   Platform(string n) : name(n), empty( true ) { }
 
-  void arrival(Train&p) {
-    if (empty) {
-      string info;
-      info.append( "Train " );
-      info.append(p.name());
-      info.append( " enters the platform " );
-      info.append(name);
-      info.append( " \n " );
-      cout << info;
-    } else {
-      string info;
-      info.append( "Train " );
-      info.append(p.name());
-      info.append( " caused a disaster on the platform " );
-      info.append(name);
-      info.append( " \n " );
-      cout << info;
-    }
-    empty = false ;
-  }
+  void arrival(Train& p) {
+      lock_guard<mutex> lock(mtx); // 🔒 Protect access
+      if (empty) {
+          cout << "Train " << p.name() << " enters the platform " << name << "\n";
+      } else {
+          cout << "Train " << p.name() << " caused a disaster on the platform " << name << "\n";
+      }
+      empty = false;
 
-  void departure(Train&p) {
-    string info;
-    info.append( "Train " );
-    info.append(p.name());
-    info.append( " leaves platform " );
-    info.append(name);
-    info.append( " \n " );
-    cout << info;
-    empty = true ;
-  }
+  void departure(Train& p) {
+      lock_guard<mutex> lock(mtx);
+      cout << "Train " << p.name() << " leaves platform " << name << "\n";
+      empty = true;
 
   bool isEmpty() {
-       return empty;
+      lock_guard<mutex> lock(mtx);
+      return empty;
   }
 };
 
